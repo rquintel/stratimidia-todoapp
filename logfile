@@ -1,0 +1,61 @@
+2020-08-22 14:20:54.768 -03 [5916] LOG:  starting PostgreSQL 12.2, compiled by Visual C++ build 1916, 64-bit
+2020-08-22 14:20:54.775 -03 [5916] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-22 14:20:54.776 -03 [5916] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-22 14:20:54.945 -03 [2172] LOG:  database system was shut down at 2020-08-22 14:19:48 -03
+2020-08-22 14:20:55.001 -03 [5916] LOG:  database system is ready to accept connections
+2020-08-22 19:17:37.061 -03 [5916] LOG:  statistics collector process (PID 6112) was terminated by exception 0xC000013A
+2020-08-22 19:17:37.061 -03 [5916] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2020-08-22 19:17:37.164 -03 [5916] LOG:  background worker "logical replication launcher" (PID 8592) was terminated by exception 0xC000013A
+2020-08-22 19:17:37.164 -03 [5916] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2020-08-22 19:17:37.164 -03 [5916] LOG:  terminating any other active server processes
+2020-08-22 19:17:37.379 -03 [5916] LOG:  all server processes terminated; reinitializing
+2020-08-22 19:17:37.514 -03 [11780] LOG:  database system was interrupted; last known up at 2020-08-22 14:32:06 -03
+2020-08-22 19:17:41.209 -03 [11780] LOG:  database system was not properly shut down; automatic recovery in progress
+2020-08-22 19:17:41.290 -03 [11780] LOG:  redo starts at 0/15CE0B0
+2020-08-22 19:17:41.290 -03 [11780] LOG:  invalid record length at 0/15CE198: wanted 24, got 0
+2020-08-22 19:17:41.290 -03 [11780] LOG:  redo done at 0/15CE160
+2020-08-22 19:17:41.524 -03 [5916] LOG:  database system is ready to accept connections
+2020-08-22 19:21:56.269 -03 [5916] LOG:  received fast shutdown request
+2020-08-22 19:21:56.384 -03 [5916] LOG:  aborting any active transactions
+2020-08-22 19:21:56.465 -03 [5312] ERROR:  canceling statement due to user request
+2020-08-22 19:21:56.465 -03 [12780] ERROR:  canceling statement due to user request
+2020-08-22 19:21:56.490 -03 [5916] LOG:  background worker "logical replication launcher" (PID 5312) exited with exit code 1
+2020-08-22 19:21:56.490 -03 [12748] LOG:  shutting down
+2020-08-22 19:21:56.765 -03 [5916] LOG:  database system is shut down
+2020-08-22 19:27:38.138 -03 [5968] LOG:  starting PostgreSQL 12.2, compiled by Visual C++ build 1916, 64-bit
+2020-08-22 19:27:38.149 -03 [5968] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-22 19:27:38.149 -03 [5968] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-22 19:27:38.368 -03 [9848] LOG:  database system was shut down at 2020-08-22 19:21:56 -03
+2020-08-22 19:27:38.446 -03 [5968] LOG:  database system is ready to accept connections
+2020-08-22 20:00:17.564 -03 [2052] LOG:  could not receive data from client: unrecognized winsock error 10054
+2020-08-22 20:01:58.640 -03 [1464] LOG:  could not receive data from client: unrecognized winsock error 10054
+2020-08-22 20:02:38.733 -03 [6960] LOG:  could not receive data from client: unrecognized winsock error 10054
+2020-08-22 20:06:27.502 -03 [11148] LOG:  could not receive data from client: unrecognized winsock error 10054
+2020-08-22 20:13:55.819 -03 [8456] LOG:  could not receive data from client: unrecognized winsock error 10054
+2020-08-22 20:15:56.893 -03 [2636] ERROR:  null value in column "user_id" violates not-null constraint
+2020-08-22 20:15:56.893 -03 [2636] DETAIL:  Failing row contains (1, photos/superman_dc_comics_pGNcDTD.jpg, rodrigo@gmail.com, (21) 99735-7808, null).
+2020-08-22 20:15:56.893 -03 [2636] STATEMENT:  INSERT INTO "accounts_userprofile" ("photo", "secondary_email", "cell_phone", "user_id") VALUES ('photos/superman_dc_comics_pGNcDTD.jpg', 'rodrigo@gmail.com', '(21) 99735-7808', NULL) RETURNING "accounts_userprofile"."id"
+2020-08-22 20:20:18.142 -03 [5968] LOG:  received fast shutdown request
+2020-08-22 20:20:18.217 -03 [5224] LOG:  could not receive data from client: unrecognized winsock error 10054
+2020-08-22 20:20:18.228 -03 [5968] LOG:  aborting any active transactions
+2020-08-22 20:20:18.239 -03 [7448] ERROR:  canceling statement due to user request
+2020-08-22 20:20:18.244 -03 [5968] LOG:  background worker "logical replication launcher" (PID 7448) exited with exit code 1
+2020-08-22 20:20:18.255 -03 [6384] LOG:  shutting down
+2020-08-22 20:20:18.445 -03 [5968] LOG:  database system is shut down
+2020-08-23 12:40:46.741 -03 [5880] LOG:  starting PostgreSQL 12.2, compiled by Visual C++ build 1916, 64-bit
+2020-08-23 12:40:46.746 -03 [5880] LOG:  listening on IPv6 address "::1", port 5432
+2020-08-23 12:40:46.746 -03 [5880] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-08-23 12:40:47.286 -03 [12580] LOG:  database system was shut down at 2020-08-22 20:20:18 -03
+2020-08-23 12:40:47.575 -03 [5880] LOG:  database system is ready to accept connections
+2020-08-23 19:08:50.114 -03 [5880] LOG:  received fast shutdown request
+2020-08-23 19:08:50.617 -03 [5880] LOG:  aborting any active transactions
+2020-08-23 19:08:50.691 -03 [11088] FATAL:  terminating connection due to administrator command
+2020-08-23 19:08:50.844 -03 [8720] ERROR:  canceling statement due to user request
+2020-08-23 19:08:50.882 -03 [5880] LOG:  background worker "logical replication launcher" (PID 8720) exited with exit code 1
+2020-08-23 19:08:51.181 -03 [10840] LOG:  shutting down
+2020-08-23 19:08:52.077 -03 [5880] LOG:  database system is shut down
+2020-09-19 14:18:12.972 -03 [10452] LOG:  starting PostgreSQL 12.2, compiled by Visual C++ build 1916, 64-bit
+2020-09-19 14:18:12.977 -03 [10452] LOG:  listening on IPv6 address "::1", port 5432
+2020-09-19 14:18:12.977 -03 [10452] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-09-19 14:18:13.291 -03 [2684] LOG:  database system was shut down at 2020-09-19 13:52:43 -03
+2020-09-19 14:18:13.451 -03 [10452] LOG:  database system is ready to accept connections
