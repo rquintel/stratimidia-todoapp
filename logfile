@@ -66,3 +66,8 @@
 2020-09-20 01:09:39.089 -03 [4716] FATAL:  terminating connection due to administrator command
 2020-09-20 01:09:39.327 -03 [6380] LOG:  shutting down
 2020-09-20 01:09:42.026 -03 [10452] LOG:  database system is shut down
+2020-10-12 20:55:06.826 -03 [6720] LOG:  starting PostgreSQL 12.2, compiled by Visual C++ build 1916, 64-bit
+2020-10-12 20:55:06.830 -03 [6720] LOG:  listening on IPv6 address "::1", port 5432
+2020-10-12 20:55:06.830 -03 [6720] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-10-12 20:55:07.204 -03 [9672] LOG:  database system was shut down at 2020-09-20 01:09:40 -03
+2020-10-12 20:55:07.432 -03 [6720] LOG:  database system is ready to accept connections
