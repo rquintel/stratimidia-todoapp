@@ -1,9 +1,6 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: win-64
-conda=4.8.4=py38_0
-conda-env=2.1.4=py38_0
-requests=2.6.0=py38_0
 asgiref=3.2.10=py_0
 astroid=2.4.2=py38_0
 ca-certificates=2020.7.22=0
