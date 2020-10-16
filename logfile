@@ -80,3 +80,30 @@
 2020-10-16 19:09:29.152 -03 [8032] LOG:  invalid record length at 0/1683C20: wanted 24, got 0
 2020-10-16 19:09:29.152 -03 [8032] LOG:  redo done at 0/1683BE8
 2020-10-16 19:09:30.070 -03 [7032] LOG:  database system is ready to accept connections
+2020-10-16 20:40:31.396 -03 [7032] LOG:  server process (PID 3988) was terminated by exception 0xC000013A
+2020-10-16 20:40:31.396 -03 [7032] DETAIL:  Failed process was running: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+2020-10-16 20:40:31.396 -03 [7032] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2020-10-16 20:40:31.396 -03 [7032] LOG:  terminating any other active server processes
+2020-10-16 20:40:31.408 -03 [1200] WARNING:  terminating connection because of crash of another server process
+2020-10-16 20:40:31.408 -03 [1200] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2020-10-16 20:40:31.408 -03 [1200] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2020-10-16 20:40:31.441 -03 [7032] LOG:  all server processes terminated; reinitializing
+2020-10-16 20:40:31.538 -03 [2684] LOG:  database system was interrupted; last known up at 2020-10-16 19:09:29 -03
+2020-10-16 20:40:33.686 -03 [2684] LOG:  database system was not properly shut down; automatic recovery in progress
+2020-10-16 20:40:33.747 -03 [2684] LOG:  redo starts at 0/1683C98
+2020-10-16 20:40:33.747 -03 [2684] LOG:  invalid record length at 0/1683CD0: wanted 24, got 0
+2020-10-16 20:40:33.747 -03 [2684] LOG:  redo done at 0/1683C98
+2020-10-16 20:40:34.017 -03 [7032] LOG:  database system is ready to accept connections
+2020-10-16 20:40:36.876 -03 [7032] LOG:  statistics collector process (PID 9260) was terminated by exception 0xC000013A
+2020-10-16 20:40:36.876 -03 [7032] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2020-10-16 20:40:36.903 -03 [7032] LOG:  background worker "logical replication launcher" (PID 1896) was terminated by exception 0xC000013A
+2020-10-16 20:40:36.903 -03 [7032] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2020-10-16 20:40:36.903 -03 [7032] LOG:  terminating any other active server processes
+2020-10-16 20:40:36.919 -03 [7032] LOG:  all server processes terminated; reinitializing
+2020-10-16 20:40:36.967 -03 [5596] LOG:  database system was interrupted; last known up at 2020-10-16 20:40:33 -03
+2020-10-16 20:40:42.970 -03 [5596] LOG:  database system was not properly shut down; automatic recovery in progress
+2020-10-16 20:40:42.999 -03 [5596] LOG:  invalid record length at 0/1683D48: wanted 24, got 0
+2020-10-16 20:40:42.999 -03 [5596] LOG:  redo is not required
+2020-10-16 20:40:43.161 -03 [7032] LOG:  database system is ready to accept connections
+2020-10-16 20:40:58.972 -03 [5128] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-10-16 20:41:14.652 -03 [5128] LOG:  using stale statistics instead of current ones because stats collector is not responding
