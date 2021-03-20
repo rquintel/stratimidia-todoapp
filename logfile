@@ -31,3 +31,4 @@
 2021-03-20 10:45:35.120 -03 [8424] LOG:  listening on IPv4 address "127.0.0.1", port 5432
 2021-03-20 10:45:35.534 -03 [9440] LOG:  database system was shut down at 2021-03-20 00:03:49 -03
 2021-03-20 10:45:35.826 -03 [8424] LOG:  database system is ready to accept connections
+2021-03-20 11:16:47.369 -03 [9280] LOG:  could not receive data from client: unrecognized winsock error 10054
