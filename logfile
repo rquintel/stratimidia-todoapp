@@ -19,3 +19,15 @@
 2021-03-19 23:10:38.706 -03 [11052] LOG:  listening on IPv4 address "127.0.0.1", port 5432
 2021-03-19 23:10:38.831 -03 [3180] LOG:  database system was shut down at 2021-03-19 23:10:13 -03
 2021-03-19 23:10:38.954 -03 [11052] LOG:  database system is ready to accept connections
+2021-03-20 00:03:49.244 -03 [11052] LOG:  received fast shutdown request
+2021-03-20 00:03:49.384 -03 [11052] LOG:  aborting any active transactions
+2021-03-20 00:03:49.419 -03 [2040] FATAL:  terminating connection due to administrator command
+2021-03-20 00:03:49.426 -03 [5044] ERROR:  canceling statement due to user request
+2021-03-20 00:03:49.431 -03 [11052] LOG:  background worker "logical replication launcher" (PID 5044) exited with exit code 1
+2021-03-20 00:03:49.431 -03 [9424] LOG:  shutting down
+2021-03-20 00:03:49.680 -03 [11052] LOG:  database system is shut down
+2021-03-20 10:45:35.115 -03 [8424] LOG:  starting PostgreSQL 12.2, compiled by Visual C++ build 1916, 64-bit
+2021-03-20 10:45:35.120 -03 [8424] LOG:  listening on IPv6 address "::1", port 5432
+2021-03-20 10:45:35.120 -03 [8424] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-03-20 10:45:35.534 -03 [9440] LOG:  database system was shut down at 2021-03-20 00:03:49 -03
+2021-03-20 10:45:35.826 -03 [8424] LOG:  database system is ready to accept connections

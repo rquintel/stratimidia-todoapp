@@ -89,6 +89,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'todoapp.wsgi.application'
 
+# Email Backend
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
