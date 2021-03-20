@@ -6,3 +6,4 @@
 2021-03-19 19:06:29.732 -03 [992] LOG:  invalid record length at 0/1683E70: wanted 24, got 0
 2021-03-19 19:06:29.732 -03 [992] LOG:  redo is not required
 2021-03-19 19:06:30.021 -03 [7876] LOG:  database system is ready to accept connections
+2021-03-19 20:11:11.707 -03 [6496] LOG:  could not receive data from client: unrecognized winsock error 10054
