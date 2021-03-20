@@ -1,1 +1,1 @@
-# stratimidia-todoapp
+# My first Django Project
